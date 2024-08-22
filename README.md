@@ -7,6 +7,7 @@ This is a Solidity smart contract named `myToken` that implements an ERC20 token
 
 ## License
 
+
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
 
 ## Prerequisites
