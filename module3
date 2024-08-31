@@ -5,7 +5,6 @@ import "@openzeppelin/contracts@4.9.0/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts@4.9.0/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts@4.9.0/access/Ownable.sol";
 
-
 contract myToken is ERC20, ERC20Burnable, Ownable {
     constructor(string memory name, string memory symbol, uint256 initialSupply) ERC20(name, symbol) {
         _mint(msg.sender, initialSupply);
